@@ -1,0 +1,30 @@
+.single-task {
+    display: flex;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url('https://img.freepik.com/free-photo/yellow-wall-texture-with-scratches_1249-77.jpg');
+}
+
+.task-name {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.task-name:focus {
+    outline: none;
+}
+.icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .single-task{
+        width: 100%;
+    }    
+}
