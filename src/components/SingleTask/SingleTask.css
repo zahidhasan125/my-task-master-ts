@@ -27,4 +27,16 @@
     .single-task{
         width: 100%;
     }    
+    .input {
+        width: 95%;
+    }
+    .tasks {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .single-task{
+        width: 40%;
+    }
 }
